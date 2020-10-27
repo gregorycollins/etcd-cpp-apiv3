@@ -2,7 +2,7 @@ syntax = "proto3";
 package v3lockpb;
 
 import "gogoproto/gogo.proto";
-import "rpc.proto";
+import "proto/rpc.proto";
 
 // for grpc-gateway
 import "google/api/annotations.proto";
